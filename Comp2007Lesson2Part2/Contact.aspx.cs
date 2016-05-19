@@ -16,7 +16,7 @@ namespace Comp2007Lesson2Part2
 
         protected void SendButton_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Default.aspx");
         }
         protected void CancelButton_Click(object sender, EventArgs e)
         {
