@@ -13,5 +13,18 @@ namespace Comp2007Lesson2Part2
         {
 
         }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void CancelButton_Click(object sender, EventArgs e)
+        {
+            FirstNameTextBox.Text = "";
+            LastNameTextBox.Text = "";
+            PhoneNumberTextBox.Text = "";
+            EmailTextBox.Text = "";
+            MessageTextArea.Text = "";
+        }
     }
 }
